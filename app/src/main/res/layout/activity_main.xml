@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/kaisen"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Kaisen Batten" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Authentic Japanese Seafood" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:text="Open Daily 11:30AM-2PM, 5-10PM" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:textSize="14sp"
+            android:text="2 Chome-5-8 Mihama, Chatan, Nakagami District" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="14sp"
+            android:text="Okinawa Prefecture 904-0115, Japan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="14sp"
+            android:text="+81 98-921-7270"
+            android:autoLink="phone"/>
+
+
+        <Button
+            android:id="@+id/reservation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Make a Reservation"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:onClick="open"/>
+
+    </LinearLayout>
+
+</LinearLayout>
